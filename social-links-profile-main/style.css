@@ -25,10 +25,11 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 12px;
-    width: 30%;
+    width: 60%;
     height: 80%;
     color: var(--White);
     background-color: var(--grey-card);
+    padding: 4%;
 }
 
 .top-half {
@@ -91,9 +92,3 @@ footer{
     justify-content: flex-end;
     align-items: flex-end;
 }
-/* @media (min-width:500vw){
-    .card{
-        justify-content: flex-start;
-        align-items: flex-start;
-    }
-} */
