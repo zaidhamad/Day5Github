@@ -30,6 +30,8 @@ body {
     color: var(--White);
     background-color: var(--grey-card);
     padding: 4%;
+    margin-top: 5%;
+    margin-bottom: 2%;
 }
 
 .top-half {
@@ -73,22 +75,21 @@ img {
     width: 100%;
     gap: 4%;
 }
-
-button {
+.bottom-half button,a{
+    text-decoration: none;
+    color: var(--White);
     background-color: var(--grey-button);
     border: none;
     border-radius: 12px;
-    width: 80%;
-    height: 20%;
+    width: 100%;
+    height: 40%;
+    margin-top: 1.5%;
 }
-
-a {
-    text-decoration: none;
-    color: var(--White);
-}
-
 footer{
     color: var(--White);
     justify-content: flex-end;
     align-items: flex-end;
+}
+.footer-a{
+    all: unset;
 }
